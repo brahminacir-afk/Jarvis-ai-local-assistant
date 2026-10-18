@@ -1,0 +1,83 @@
+# Jarvis Prompt Guide
+
+This assistant is built for local Windows tasks plus natural chat.
+Use it for safe folder work, alarms, notes, screenshots, system info, app launch, and web search.
+
+## Chat
+- `hello`
+- `explain what this project does`
+- `what time is it now`
+- `what can you do for me`
+
+## Folders
+- `create a folder named "lwess" in "C:\Users\wassi\OneDrive\Desktop\word"`
+- `create a folder named "Archive" in Documents`
+- `open my Downloads folder`
+- `open the parent folder`
+- `list the files in my Downloads folder`
+- `search my Documents for notes`
+- `rename folder "OldName" to "NewName"`
+- `move folder "ProjectA" to "C:\Users\wassi\Documents\Archive"`
+- `copy folder "Assets" to "C:\Users\wassi\Desktop"`
+- `delete folder "TempFiles"`
+
+## Files
+- `create a text file named todo.txt in Documents`
+- `open file "C:\Users\wassi\Documents\report.docx"`
+- `upload "C:\Users\wassi\OneDrive\Desktop\tp5\main.cpp" and explain its code`
+- `upload the folder "C:\Users\wassi\OneDrive\Desktop\tp5" and summarize the content`
+- `rename file "draft.txt" to "final.txt"`
+- `move file "photo.jpg" to Downloads`
+- `copy file "resume.pdf" to Desktop`
+- `find the latest video clip in my Downloads folder`
+- `delete file "old_notes.txt"`
+
+## Alarms, Timers, Reminders
+- `set a timer for 15 minutes`
+- `set a timer for 90 seconds`
+- `set an alarm for 8:00 PM`
+- `set an alarm for tomorrow at 7 am`
+- `remind me in 30 minutes to stretch`
+- `remind me at 3:30 PM to call mom`
+
+## Notes
+- `take a note: review the C++ assignment`
+- `read my last saved note`
+- `clear my notes for today`
+
+## Apps
+- `open Notepad`
+- `open Opera`
+- `close Notepad`
+- `launch File Explorer`
+
+## Screenshots
+- `take a screenshot of my current screen`
+- `capture the active window`
+
+## System Info
+- `what is my current battery percentage`
+- `check if I am connected to the internet`
+- `how much storage space is left on my C drive`
+- `show me CPU and RAM usage`
+
+## Web
+- `search Google for calisthenics progression exercises`
+- `open YouTube and search for AI tutorials`
+- `open https://example.com`
+
+## Shortcut Memory
+- `save alias my_work for C:\Users\wassi\Documents\Work`
+- `open my_work`
+
+## Best Results
+- Use short, direct prompts.
+- Include a folder path when you know it.
+- Use clear names for new folders and files.
+- For alarm and reminder requests, say either a duration or a time.
+- Destructive actions like delete, move, and rename may ask for confirmation.
+
+## Safety Limits
+- Registry edits are blocked.
+- Raw terminal scripts are blocked.
+- Unsafe system paths like `C:\Windows` are blocked.

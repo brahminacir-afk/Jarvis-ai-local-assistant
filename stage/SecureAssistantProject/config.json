@@ -1,0 +1,17 @@
+{
+    "model_name": "qwen2.5:0.5b",
+    "ollama_url": "http://localhost:11434/api/generate",
+    "min_confidence_threshold": 45,
+    "local_timezone": "Africa/Tunis",
+    "authorized_directories": [
+        "Desktop",
+        "Documents",
+        "Downloads",
+        "Pictures"
+    ],
+    "blocked_paths": [
+        "C:\\Windows",
+        "C:\\Windows\\System32",
+        "C:\\Program Files"
+    ]
+}
